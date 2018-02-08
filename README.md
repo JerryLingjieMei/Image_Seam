@@ -2,7 +2,7 @@
 
 This is an implementation of the [seam carving](https://en.wikipedia.org/wiki/Seam_carving) algorithm. The seam carving algorithm removes the most insignificnat pixles from an image without disturbing the general theme of the picture.
 
-##Example
+## Example
 
 Here we have an image of the Stata Center, MIT:
 
@@ -14,7 +14,7 @@ We then shrink it to around half in width:
 
 Notice that the overall structure of the building hasn't been changed.
 
-##Efficiency
+## Efficiency
 
 The implementation provided in the following code has a higher time and space efficiency than any previous implementations. Compared to previous implementaions by other users (See ``vendor/``), this implementaion has achieved at least 6 times speed up and a lot less memory. The strategy used in this implementaion is that data and space are reused in multiple iterations. We also use various parsers accelerate the computation.
 
