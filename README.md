@@ -2,7 +2,7 @@
 
 This is an implementation of the [seam carving](https://en.wikipedia.org/wiki/Seam_carving) algorithm. The seam carving algorithm removes the most insignificnat pixles from an image without disturbing the general theme of the picture.
 
-##Exmaple
+##Example
 
 Here we have an image of the Stata Center, MIT:
 
@@ -18,7 +18,7 @@ Notice that the overall structure of the building hasn't been changed.
 
 The implementation provided in the following code has a higher time and space efficiency than any previous implementations. Compared to previous implementaions by other users (See ``vendor/``), this implementaion has achieved at least 6 times speed up and a lot less memory. The strategy used in this implementaion is that data and space are reused in multiple iterations. We also use various parsers accelerate the computation.
 
-## Installion
+## Installation
 
 All the codes provided are written in [Julia](https://github.com/JuliaLang/julia) and displayed in [jupyter notebook](https://github.com/JuliaLang/IJulia.jl). You may clone this directory and enter the following code in Julia:
 
